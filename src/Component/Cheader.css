@@ -1,0 +1,69 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0.5, 0, 0.8); ;
+    border-radius: 15px;
+    font-weight: 800;
+    color: white;
+padding: 1px 20px;
+margin-top: 8px;
+
+
+}
+
+.Nav-Header{
+    font-weight: 800;
+    font-size: 1.5rem;
+    font-size: 40px;
+
+}
+
+
+*{
+  text-decoration: none;
+  }
+
+.Nav-List ul{
+    list-style-type: none;
+  
+}
+.Nav-List ul li{
+  display: inline-block;  
+  margin: 10px;
+  font-size: 25px;
+  color: white;
+}
+
+.Nav-List ul li a{
+    margin: 20px;
+    font-size: 28px;
+    color: white;
+    transition:  color 0.3s ease;
+    text-decoration: none;
+  }
+  .Nav-List ul li a:hover {
+    color: #ffd700;
+  }
+
+  .Nav-search input{
+    padding:  5px;
+    margin-right: 8px;
+    border-radius: 5px;
+    border: 1px solid white;
+
+
+  }
+
+  .Nav-search button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+
+   .Nav-search button:hover{
+    background-color: #45a049;
+  }
